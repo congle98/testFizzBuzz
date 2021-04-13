@@ -23,7 +23,7 @@ class FizzBuzzTranslateTest {
     @org.junit.jupiter.api.Test
     void traslateBuzz() {
         String desiredResult = "Buzz";
-        String actualResult = FizzBuzzTranslate.traslate(20);
+        String actualResult = FizzBuzzTranslate.traslate(25);
         assertEquals(desiredResult,actualResult);
     }
 }
